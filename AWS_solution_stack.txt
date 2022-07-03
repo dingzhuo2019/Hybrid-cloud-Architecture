@@ -1,0 +1,33 @@
+  1.Account & Organization structure Design
+ (Account permission: Service control policy, STS, permission boundry, cross account management,RAM, shared VPC)
+  2.IAM, Federal SSO
+ (SAML2.0, federal sso/Cognito, workspace, hybrid directory service, AD connector, hybrid AD)
+  3.Networking 
+ (Region/AZs/subnets, public/private VPC, IGW, NATGW, security VPC, management VPC, transit VPC, NACL, SG, BGP, S2S VPN, Directconnect, DXGW, VGW, TGW
+ pubic/private/tranit VIF, GW & interface end-point, Route53 & Hybrid DNS, AWS private link)
+ 4.Security
+ (guardduty, inspector, KMS, cloudHSM, Certificate Manager, Secret Manager, VPC logs & Packet sniffing, FW, WAF, FWManager, shield)
+ (IAM, FSSO,cloudwatch+lambda+SNS, cloudtrail)
+ 5.Storage
+ (FSx file storage,EBS block, S3 object, Hybrid storage Gateway)
+ 6.Computing & autoscaling 
+ (AMI & Bootscrapping, ALB, NLB, CLB, GWLB, workload auto-scaling) 
+ 7.Monitoring&logging
+ (cloudwatch, cloudwatch logs, cloudtrail,
+ 8.Database
+ (Multi AZ RDS, RDS read-replicas, Elastics Memcached& Redis, Aurora, DynamoDB, Athena
+ 9.multi DB-instances consistence & performance optimization
+ 10.Caching
+ Cloudfront::S3, SSL certificate, encryption, caching performance optimization)
+ 11.Data Analystics
+ (Kinesis, Kinesis firehose, sagemaker)
+ 12.container,microservice, serverless
+ (ECS-docker, EKS-Kupernetes, SNS, SQS, MQ, lambda, API-GW, cloudwatch event integration, serverless application model)
+ 13.Database& server migration
+ (server migration service-/VMware/Hyper V/Azure connector, database migration service(DMS)/schema mapping, Hybrid storage migration --storage GW(file GW, Volume GW, Tape GW)
+ 14.snowball,  data transfer service- datasync)
+ 15.IaC Cloudformation deployment
+ (yalm,json, CFN-INIT, cfn-hup, cross-stack, codecommit, codepipeline,codebuilder, codedeploy, Elastic Beanstalk, System Manager, Patch manager, 
+ 16.DR/BCP (cold, warm, politlight,equal, storage, computing, database, networking) 
+
+
