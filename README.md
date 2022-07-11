@@ -26,17 +26,22 @@
  
   13.cloud native serverless architecture 
   
-  1.  AWS:   (organization, structure, cross account, IAM Account roles and permission policy: Service control policy, STS, permission boundary, advanced setting:                   cross account management, RAM, shared VPC)
+  
+  
+  1. organization, Account, Service control policy
+  
+      AWS:   (organization, structure, cross account, IAM Account roles and permission policy: Service control policy, STS, permission boundary, advanced setting:                   cross account management, RAM, shared VPC)
       
       AZURE: (tenants, organization, Azure AD user, groups Account policy permission RBAC, conditional access policy, identity privilege management)
 
   2. Cloud user group IAM, Federal SSO
+  
        AWS:   (SAML2.0, federal sso/Cognito, workspace, hybrid directory service, AD connector, hybrid AD)
        
-       AZURE: (SAML2.0, federated sso, Azure directory service, AD domain service, identity governance, AD security and health check, Azure AD connector, hybrid AD,                   privilege user identity protection) 
+       AZURE: (SAML2.0, federated sso, Azure directory service, AD domain service, identity governance, AD security and health check, Azure AD connector, hybrid AD,                  privilege user identity protection,Azure AD, AD conditional Access, Connect Health, AD Domain Service, Privilege Identity, Identity governance)
 
-        Note: Federated SSO solution use MS-AD and AFDS to have two-way forest trust is the key solution for multi-cloud strategy.  As premise AD, AWS cloud, Azure all well connect with AD connect and premise AD and directory service 
-              Azure AD, AD conditional Access, Connect Health, AD Domain Service, Privilege Identity, Identity governance, Multi-tenants 
+        Note: Federated SSO solution use MS-AD and AFDS to have two-way forest trust is the key solution for multi-cloud strategy. 
+               
 
   3. Networking 
   
