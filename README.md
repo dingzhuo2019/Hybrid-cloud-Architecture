@@ -1,17 +1,35 @@
-# Hybrid cloud migration
-Assessment (application, infrastructure, performance assessment)
-Mobile ( digital asset invectory, application, infrastructure, perfomance mapping, landing zone, vending machine product, application 
- well architect framework with best practice solution
+# Hybrid cloud migration phases
+
+     a. Assessment (application, infrastructure, performance assessment)
+     
+     b. Mobile & mapping (digital asset invectory, application, infrastructure, perfomance discovery mapping, landing zone, vending machine product, migration                 readiness assessment(MRA)  
+     
+     c. Migration(7R) & modernation (Retain, Retie, relocate, rehost, replatform, repurchase, refactor)
+ 
+ AWS/Azure cloud stacks
  
   1. Cloud Account & Organization structure Design
-       AWS:  organization, structure, cross account, IAM Account roles and permission policy: Service control policy, STS, permission boundary, advanced setting: cross              account management, RAM, shared VPC
+  2. Cloud user group IAM, Federal SSO
+  3. Networking 
+  4. Security
+  5. Storage
+  6. Computing & autoscaling 
+  7. Database
+  8. Caching
+  9. Data Analystics & Machine learning
+  10.container, microservice, serverless
+  11.IaC deployment
+  12.Governance, Monitoring & logging
+  13.cloud native serverless architecture 
+  
+  1.  AWS:  organization, structure, cross account, IAM Account roles and permission policy: Service control policy, STS, permission boundary, advanced setting: cross              account management, RAM, shared VPC
        AZURE: tenants, organization, Azure AD user, groups Account policy permission RBAC, conditional access policy, identity privilege management
 
   2. Cloud user group IAM, Federal SSO
        AWS:   SAML2.0, federal sso/Cognito, workspace, hybrid directory service, AD connector, hybrid AD)
        AZURE: SAML2.0, federated sso, Azure directory service, AD domain service, identity governance, AD security and health check, Azure AD connector, hybrid AD,                   privilege user identity protection. 
 
-Note: Federated SSO solution use MS-AD and AFDS to have two-way forest trust is the key solution for multi-cloud strategy.  As premise AD, AWS cloud, Azure all well connect with AD connect and premise AD and directory service 
+        Note: Federated SSO solution use MS-AD and AFDS to have two-way forest trust is the key solution for multi-cloud strategy.  As premise AD, AWS cloud, Azure all well connect with AD connect and premise AD and directory service 
 
   3. Networking 
        AWS:  (Region/AZs/subnets, public/private VPC, IGW, NATGW, security VPC, management VPC, transit VPC, NACL, SG, BGP, S2S VPN, Directconnect, DXGW, VGW, TGW,                  pubic/private/tranit VIF, GW & interface end-point, Route53 & Hybrid DNS, AWS private link)
