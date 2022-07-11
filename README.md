@@ -24,6 +24,7 @@
   
   
   
+  
   1. organization, Account, Service control policy
   
       AWS:   (organization, structure, cross account, IAM Account roles and permission policy: Service control policy, STS, permission boundary, advanced setting:                   cross account management, RAM, shared VPC)
