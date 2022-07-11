@@ -81,6 +81,7 @@
       AZURE: (Frontdoor, bolb,  SSL certificate, encryption, caching performance optimization)
 
   9.  Database & server migration
+  
       AWS: (application discovery service, CloudEndure Migration, Server migration service-/VMware/Hyper V/Azure connector, Database migration service(DMS)/schema                 mapping, Hybrid storage migration --storage GW(file GW, Volume GW, Tape GW),  data transfer service- datasync, snowball, snowball Edge, Snowball mobile)
 
       AZURE: (Azure migration service-/VMware/Hyper V/Azure connector, database migration service (DMS)/schema mapping, Azure site recovery, Data Box)
