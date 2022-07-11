@@ -1,4 +1,6 @@
 # Hybrid cloud migration
+Assessment (application, infrastructure, performance assessment)
+Mobile ( digital asset invectory, application, infrastructure, perfomance mapping, landing zone, vending machine product, application 
  well architect framework with best practice solution
  
   1. Cloud Account & Organization structure Design
