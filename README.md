@@ -1,24 +1,25 @@
 # Hybrid cloud migration
  well architect framework with best practice solution
  
- 1.Cloud Account & Organization structure Design
-AWS:  organization, structure, cross account, IAM Account roles and permission policy: Service control policy, STS, permission boundary, advanced setting: cross account management, RAM, shared VPC
-AZURE: tenants, organization, Azure AD user, groups Account policy permission RBAC, conditional access policy, identity privilege management
+  1. Cloud Account & Organization structure Design
+       AWS:  organization, structure, cross account, IAM Account roles and permission policy: Service control policy, STS, permission boundary, advanced setting: cross              account management, RAM, shared VPC
+       AZURE: tenants, organization, Azure AD user, groups Account policy permission RBAC, conditional access policy, identity privilege management
 
   2. Cloud user group IAM, Federal SSO
-AWS:  SAML2.0, federal sso/Cognito, workspace, hybrid directory service, AD connector, hybrid AD)
-AZURE: SAML2.0, federated sso, Azure directory service, AD domain service, identity governance, AD security and health check, Azure AD connector, hybrid AD, privilege user identity protection. 
+       AWS:   SAML2.0, federal sso/Cognito, workspace, hybrid directory service, AD connector, hybrid AD)
+       AZURE: SAML2.0, federated sso, Azure directory service, AD domain service, identity governance, AD security and health check, Azure AD connector, hybrid AD,                   privilege user identity protection. 
 
 Note: Federated SSO solution use MS-AD and AFDS to have two-way forest trust is the key solution for multi-cloud strategy.  As premise AD, AWS cloud, Azure all well connect with AD connect and premise AD and directory service 
 
- 3.Networking 
- AWS: (Region/AZs/subnets, public/private VPC, IGW, NATGW, security VPC, management VPC, transit VPC, NACL, SG, BGP, S2S VPN, Directconnect, DXGW, VGW, TGW, pubic/private/tranit VIF, GW & interface end-point, Route53 & Hybrid DNS, AWS private link)
+  3. Networking 
+       AWS:  (Region/AZs/subnets, public/private VPC, IGW, NATGW, security VPC, management VPC, transit VPC, NACL, SG, BGP, S2S VPN, Directconnect, DXGW, VGW, TGW,                  pubic/private/tranit VIF, GW & interface end-point, Route53 & Hybrid DNS, AWS private link)
 
-AZURE: (Region/AZs/subnets, VNet, Vnet peering, application gateway, Azure Bastion, DDOS Protection, ASG and NSG. Azure DNS, Frontdoor, Azure private link, CDN, Load balancer, Traffic Manager, virtual Network, Virtual Network, VPN gateway, virtual WAN, interface endpoint, privatelink, interface endpoint  networkwatch
-Notes: there is no IGW and NATGW in Azure as all vNet are public/private supportable and Vet us NATGW as the service 
-Azure VPN GW=AWS TGW, Azure NATGW=AWS IGW+NATGW, Azure ASG support micro segmentation , Azure application GW=AWS WAF+ALB , Hub-spoke deployment, transit VPC/vnet
+       AZURE: (Region/AZs/subnets, VNet, Vnet peering, application gateway, Azure Bastion, DDOS Protection, ASG and NSG. Azure DNS, Frontdoor, Azure private link, CDN,              Load balancer, Traffic Manager, virtual Network, Virtual Network, VPN gateway, virtual WAN, interface endpoint, privatelink, interface endpoint                        networkwatch
+   
+             Notes: there is no IGW and NATGW in Azure as all vNet are public/private supportable and Vnet us NATGW as the service 
+             Azure VPN GW=AWS TGW, Azure NATGW=AWS IGW+NATGW, Azure ASG support micro segmentation , Azure application GW=AWS WAF+ALB , Hub-spoke deployment, transit                VPC/vnet
 
-4.Security
+  4. Security
 AWS: (Cloud Directory, Cognito, Directory Service, IAM, GuardDuty, inspector, KMS, Resource Access Manager, cloudHSM, Certificate Manager, Secret Manager, VPC logs & Packet sniffing, FW, WAF, Firewall manager, security hub, shield, SSO Manager
 (IAM, AD SSO, cloudwatch+lambda+SNS, cloudtrail)
 AZURE: (Application Gateway, Azure AD, Azure AD domain service, Azure DDoS Protection, key vault, Azure Dedicated HSM, Azure Frontdoor, Azure Information Protection, Defender, Sentinel (SIEM), FW, WAF, FW Manager, VPN Gateway)
