@@ -17,14 +17,10 @@
   7. Database
   8. Caching
   9. Data Analystics & Machine learning
- 
-  10.container, microservice, serverless
- 
-  11.IaC deployment
- 
-  12.Governance, Monitoring & logging
- 
-  13.cloud native serverless architecture 
+ 10. container, microservice, serverless
+ 11. IaC deployment
+ 12. Governance, Monitoring & logging
+ 13. Serverless architecture 
   
   
   
