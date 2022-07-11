@@ -18,13 +18,13 @@
   8. Caching
   9. Data Analystics & Machine learning
  
- 10.container, microservice, serverless
+  10.container, microservice, serverless
  
- 11.IaC deployment
+  11.IaC deployment
  
- 12.Governance, Monitoring & logging
+  12.Governance, Monitoring & logging
  
- 13.cloud native serverless architecture 
+  13.cloud native serverless architecture 
   
   1.  AWS:  organization, structure, cross account, IAM Account roles and permission policy: Service control policy, STS, permission boundary, advanced setting: cross              account management, RAM, shared VPC
       
