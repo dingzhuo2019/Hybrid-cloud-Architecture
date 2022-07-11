@@ -49,8 +49,7 @@
 
        AZURE: (Region/AZs/subnets, VNet, Vnet peering, application gateway, Azure Bastion, DDOS Protection, ASG and NSG. Azure DNS, Frontdoor, Azure private link, CDN,              Load balancer, Traffic Manager, virtual Network, Virtual Network, VPN gateway, virtual WAN, interface endpoint, privatelink, interface endpoint                        networkwatch)
    
-             Notes: there is no IGW and NATGW in Azure as all vNet are public/private supportable and Vnet us NATGW as the service 
-             Azure VPN GW=AWS TGW, Azure NATGW=AWS IGW+NATGW, Azure ASG support micro segmentation , Azure application GW=AWS WAF+ALB , Hub-spoke deployment, transit                VPC/vnet
+            
 
   4. Security
   
