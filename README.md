@@ -48,11 +48,13 @@
              Azure VPN GW=AWS TGW, Azure NATGW=AWS IGW+NATGW, Azure ASG support micro segmentation , Azure application GW=AWS WAF+ALB , Hub-spoke deployment, transit                VPC/vnet
 
   4. Security
+  
       AWS:  (Cloud Directory, Cognito, Directory Service, IAM, GuardDuty, inspector, KMS, Resource Access Manager, cloudHSM, Certificate Manager, Secret Manager, VPC               logs & Packet sniffing, FW, WAF, Firewall manager, security hub, shield, SSO Manager,IAM, AD SSO, cloudwatch+lambda+SNS, cloudtrail)
 
       AZURE: (Application Gateway, Azure AD, Azure AD domain service, Azure DDoS Protection, key vault, Azure Dedicated HSM, Azure Frontdoor, Azure Information                     Protection, Defender, Sentinel (SIEM), FW, WAF, FW Manager, VPN Gateway)
 
   5.  Storage
+  
       AWS:  (backup, CloudEndure Disaster Recovery, EFS infrequent Access, EFS standard, EBS, FSx file storage, EBS block, S3 object, S3 Galcier, Snowball, Snowball                Edge, Hybrid storage Gateway)
 
       AZURE: 
@@ -62,11 +64,13 @@
              backup(Azure backup, vaeem backup & replication, azure backup as service)
 
   6.  Computing & autoscaling 
+  
       AWS:  (AMI & Bootscrapping, ALB, NLB, CLB, GWLB, workload auto-scaling, Batch, EC2 auto-scale, Elastic container registry, Elastic Beanstalk, Elastic container                service(ECS), Elastic Kubernetes service(EKS), fargate mode, lambda)
  
       AZURE: (VM OS image, Shared Image Gallery, VM storage, VM scale sets, VM disk encryption set, key vault, Azure powershell CLI, Resource Manager, Batch, Disk                 (Managed), function APP, cyclecloud HPC)
 
   7.  Database
+  
       AWS:   (Multi AZ RDS, RDS read-replicas, Elastics Memcached & Redis, Aurora, DynamoDB, ElastiCache, Athena, Neptune, Redshift, Database migration service)
  
       AZURE: (Multi AZ SQL, SQL read-replicas, Azure Redis cache, CosmosDB, MariaDB, PostSQL, MYSQL, Data warehouse Elastic Job Agent, Instance pool, Database                       migration service)
@@ -76,6 +80,7 @@
                    AWS Redis=Azure Redis
 
   8.  Caching
+  
       AWS:   (Cloudfront, S3, SSL certificate, encryption, caching performance optimization)
 
       AZURE: (Frontdoor, bolb,  SSL certificate, encryption, caching performance optimization)
@@ -87,6 +92,7 @@
       AZURE: (Azure migration service-/VMware/Hyper V/Azure connector, database migration service (DMS)/schema mapping, Azure site recovery, Data Box)
 
   10. Data Analystics
+  
       AWS: (Redshift, Athena, cloudsearch, data pipeline, elasticsearch service, EMR, Glue, Kensis data analytics, Kensis data firehose, Kensis data stream, Kensis                video streaming, Kensis, lake formation, quicksights, redshift)
 
       AZURE: (Analysis Service, Azure data explorer, powerBI, stream analysis job, Azure Synapse Analysis, DataBricks, Data Factory(ADF), Azure data Lake Analytics
@@ -100,28 +106,32 @@
       AZURE: (API Apps, API Management Service, Logical App, Service Bus, Service Bus Relay, Azure functions, container instances, AKS-Kubernetes, Azure virtual                   desktop, Batch, service fabric/microservices, VM Scale Sets, Service fabric Cluster, Service Fabric Mesh)
 
   12. IaC deployment
+  
       AWS:  (Cloudformation , resource manager, System Manager, Patch manager (yalm,json, CFN-INIT, cfn-hup, cross-stack)
-      AWS DevOps tools: Codecommit, Codepipeline, Codebuilder, Codedeploy, Elastic Beanstalk
+            AWS DevOps tools: Codecommit, Codepipeline, Codebuilder, Codedeploy, Elastic Beanstalk
 
       AZURE: (resource manager, powershell, CLI, json file)
-      Azure DevOps Tools: Azure DevOps, Pipeline, Repo, Testplan, DevTest Lab, Lab Service
-             Note: IaC solution Terraform VS cloudformation VS ansible VS puppet VS chef
+            Azure DevOps Tools: Azure DevOps, Pipeline, Repo, Testplan, DevTest Lab, Lab Service
+            Note: IaC solution Terraform VS cloudformation VS ansible VS puppet VS chef
 
   13.  Governance, Monitoring & logging
+  
        AWS:  (Auto Scaling, Budgets, Cloudformation, Cloudtrail, Cloudwatch, Config, Control Tower, Cost explorer, License Manager, Opsworks, Organization, System                    manager, Trusted Advisor, Well-architect tool, Cloudwatch, cloud trail)
 
        AZURE: (VM monitoring, Advisor, Automation account, Blueprint, Cost Alert, Cost Analysis, Management Group, Policy, AD, VM monitor, AD health check, SQL health                check, update management, 3 party tools Zabbix and solarwind)
 
 
    14  Machine learning
+   
        AWS:  (deep learning AMI, deep learning container, DeepLens, DeepRacer, tensorflow, sagemarker)
 
        Azure: (Batch AI, Bot Service, Cognitive Search, Cognitive Service, Genomics Account)
 
    16. AWS DR/BCP (cold, warm, politlight, equal, storage, computing, database, networking) 
-       Azure DR/BCP: (azure backup as service, veeam backup & replication, Azure site recovery )
+       Azure DR/BCP: (azure backup as service, veeam backup & replication, Azure site recovery)
 
    17. cloud native serverless architecture 
+   
        monnlith application ( Web-logical-DB)
 
        AWS (APIGW(restful API/HTTP API) + Lambda function(Event Hub) + step function ( state machine)+ RDS+ DynomoDB+ Redis/Elastic inmemory+ cacheSQS/SQS/MQ+                S3/EBS/EFS+ IAM +coundfront CDN)
