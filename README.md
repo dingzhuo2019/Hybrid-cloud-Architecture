@@ -96,8 +96,8 @@
         6. use SCP and IAM to keep the data away
         7. Security event automation 
         8. security hub built-in compliance PCI-DSS, use it. Security hub integrated with guardduty, inspector, miace, IAM access analyzer, firewall manager, central              view
-        9. CMK(customer Master Key) customer managed VS AWS managed retain period different
-        10. SCP deny permit deny rules on the organization to control the resource creation
+        9. KMS and CloudHSM for key management
+        10. SCP deny permit deny rules on the organization to control the resource creation, together with IAM and resource based policy 
         11. always use session manager/SSM as default for private VPC instance access
         12. deny the S3 and other resource public access
         13. enable the auto backup 
