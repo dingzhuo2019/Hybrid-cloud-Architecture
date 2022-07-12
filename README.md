@@ -58,9 +58,13 @@
       AWS security strategy and architecture 
 
      1. top down security design
+     
         1.1 secure the organization
+        
         1.2 secure the ogranization OU
+        
         1.3 Secure the account
+        
         1.4 Secure the network
 
         1.1 Secure the orgnization & OU: use security Hub, control tower, SCP, SSO, Cloudtrail, Firewall Manager, IAM advisor, etc
