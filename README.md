@@ -57,25 +57,28 @@
       
       AWS security strategy and architecture 
 
-     top down security design
-        secure the organization
-        secure the ogranization OU
-        Secure the account
-        Secure the network
+     1. top down security design
+        1.1 secure the organization
+        1.2 secure the ogranization OU
+        1.3 Secure the account
+        1.4 Secure the network
 
-        Secure the orgnization & OU will include security Hub, control tower, SCP, SSO, Cloudtrail, Firewall Manager, IAM advisor, etc
+        1.1 Secure the orgnization & OU will include security Hub, control tower, SCP, SSO, Cloudtrail, Firewall Manager, IAM advisor, etc
    
-        Scure the account level, will have SCP, cloudtrail, AWS config, System Manager, Guardduty, Inspector, Security Hub, IAM access advisor and cloudwatch
+        1.3 Scure the account level, will have SCP, cloudtrail, AWS config, System Manager, Guardduty, Inspector, Security Hub, IAM access advisor and cloudwatch
 
-        Scure the network will have inspector, WAF, shield, FW, FW manager, ACM, SG, NACL, GW, VPC endpoints, endpoint policy, flow logs, traffic monitoring
+        1.3 Scure the network will have inspector, WAF, shield, FW, FW manager, ACM, SG, NACL, GW, VPC endpoints, endpoint policy, flow logs, traffic monitoring
 
 
-     AWS compliance and assurance
+    2. AWS compliance and assurance
 
-       Four layers of compliance and assurance
+        Four layers of compliance and assurance
         layer 1: AWS config set up the standard compliance rules, collect the aggregated account config data, update the AWS security hub, control torwe, and backup 
+        
         layer 2: Sydtem manager do the image and patch management, pre-built the image for the VM/container
+        
         Layer 3: AWS auditing Manager integrate with cloudtrail, provided pre-built automatic generated compliance reports for auditing
+        
         layer 4: confirmation guard provide the guardrail for the code check before the resource provision. 
 
 
