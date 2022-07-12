@@ -63,11 +63,11 @@
         1.3 Secure the account
         1.4 Secure the network
 
-        1.1 Secure the orgnization & OU will include security Hub, control tower, SCP, SSO, Cloudtrail, Firewall Manager, IAM advisor, etc
+        1.1 Secure the orgnization & OU: use security Hub, control tower, SCP, SSO, Cloudtrail, Firewall Manager, IAM advisor, etc
    
-        1.3 Scure the account level, will have SCP, cloudtrail, AWS config, System Manager, Guardduty, Inspector, Security Hub, IAM access advisor and cloudwatch
+        1.3 Secure the account level: use SCP, cloudtrail, AWS config, System Manager, Guardduty, Inspector, Security Hub, IAM access advisor and cloudwatch
 
-        1.3 Scure the network will have inspector, WAF, shield, FW, FW manager, ACM, SG, NACL, GW, VPC endpoints, endpoint policy, flow logs, traffic monitoring
+        1.3 Secure the network : use inspector, WAF, shield, FW, FW manager, ACM, SG, NACL, GW, VPC endpoints, endpoint policy, flow logs, traffic monitoring
 
 
     2. AWS compliance and assurance
