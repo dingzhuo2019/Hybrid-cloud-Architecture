@@ -83,7 +83,7 @@
         
         Layer 3: AWS auditing Manager integrate with cloudtrail, provided pre-built automatic generated compliance reports for auditing
         
-        layer 4: confirmation guard provide the guardrail for the code check before the resource provision. 
+        layer 4: AWS conformation-guard provide the guardrail for the code check before the resource provision. 
 
 
         Best Practice of the security design
@@ -91,9 +91,9 @@
         1. IdP with federated SSO with IAM, SCP 
         2. Enable the traceability 
         3. Apply security at all layers
-        4. Automate security best practice
+        4. Automate security best practice as much as possible
         5. Pretent Data in transit and rest
-        6. use SCP and IAM to keep the data away
+        6. keep the data away from human-System manager and configure manager
         7. Security event automation 
         8. security hub built-in compliance PCI-DSS, use it. Security hub integrated with guardduty, inspector, miace, IAM access analyzer, firewall manager, central              view
         9. KMS and CloudHSM for key management
