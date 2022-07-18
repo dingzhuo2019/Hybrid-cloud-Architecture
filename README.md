@@ -158,11 +158,12 @@
   12. IaC deployment
   
       AWS:   (Cloudformation , resource manager, System Manager, Patch manager (yalm,json, CFN-INIT, cfn-hup, cross-stack)
-              AWS DevOps tools: Codecommit, Codepipeline, Codebuilder, Codedeploy, Elastic Beanstalk
+              or Terraform DevOps orchestation tools: Codecommit, Codepipeline, Codebuilder, Codedeploy, Elastic Beanstalk
 
       AZURE: (resource manager, powershell, CLI, json file)
               Azure DevOps Tools: Azure DevOps, Pipeline, Repo, Testplan, DevTest Lab, Lab Service
-              Note: IaC solution Terraform VS cloudformation VS ansible VS puppet VS chef
+              Note: IaC solution resource stack provision: Terraform VS cloudformation 
+                    Config/change/patch: ansible VS puppet VS chef
 
   13.  Governance, Monitoring & logging
   
